@@ -2,10 +2,10 @@ require("custom.lazy")
 require("custom.lualine")
 require("custom.harpoon")
 require("custom.neotree")
-require("custom.lsp")
 require("custom.align")
 require("custom.telescope")
 require("custom.telescope-fzf")
+require("custom.lsp")
 require("custom.remap")
 
 vim.opt.guicursor = "a:block"

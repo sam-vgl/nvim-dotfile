@@ -35,3 +35,4 @@ vim.keymap.set("i", "<C-i>", '<C-p>', opts)
 
 vim.keymap.set("v", "<", '<gv', opts)
 vim.keymap.set("v", ">", '>gv', opts)
+vim.keymap.set("n", "<leader>d", ':lua vim.diagnostic.open_float()<CR>', opts)
